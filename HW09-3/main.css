@@ -7,30 +7,30 @@
 }
 
 .row {
-    margin-left: .75em;
+    margin-left: 0.75em;
 }
 
 .row:first-child .col {
-    margin-top: .75em;
+    margin-top: 0.75em;
 }
 
 .col {
     width: 1.5em;
     height: 1.5em;
     display: inline-block;
-    margin: .14em .12em;
+    margin: 0.14em 0.12em;
     box-shadow: 1px 2px 10px #888;
     border-radius: 50%;
     visibility: hidden;
 }
 
 .white {
-    border: 1px solid;
+    border: 1px solid #ccc;
     background: linear-gradient(white, #eee);
 }
 
 .black {
-    border: 1px solid ;
+    border: 1px solid #000;
     background: linear-gradient(black, #000);
 }
 .col{

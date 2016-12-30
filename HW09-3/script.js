@@ -15,6 +15,8 @@ $().ready(function () {
     });
 
     $("#restart").click(function () {
+         $(".col").css("opacity","0");
+    color = "white";
         $(".hint").text("現在換 " + color + " 下");
         $(".col").removeClass("white");
         $(".col").removeClass("black");
