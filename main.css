@@ -1,0 +1,39 @@
+.go-board {
+    font-size: 20px;
+    background-image: url('board.gif');
+    width: 20em;
+    height: 20em;
+    background-size: cover;
+}
+
+.row {
+    margin-left: .75em;
+}
+
+.row:first-child .col {
+    margin-top: .75em;
+}
+
+.col {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    margin: .14em .12em;
+    box-shadow: 1px 2px 10px #888;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.white {
+    border: 1px solid;
+    background: linear-gradient(white, #eee);
+}
+
+.black {
+    border: 1px solid ;
+    background: linear-gradient(black, #000);
+}
+.col{
+  visibility: visible;
+  border: 1px solid transparent;
+}
